@@ -3,6 +3,11 @@
  * and open the template in the editor.
  */
 
+/* 
+ * soy Catalin 
+ * Esto es la practica de Entornos
+ * Tenemos hasta el dia 14 para entregarlo 
+ */
 public class CCuenta {
 
 
