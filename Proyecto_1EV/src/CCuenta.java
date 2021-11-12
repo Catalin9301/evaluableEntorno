@@ -11,10 +11,9 @@
 public class CCuenta {
 
 
-    private String nombre;
-    private String cuenta;
-    private double saldo;
-    private double tipoInteres;
+    private String nombre, cuenta1;
+    private double saldo, tipoInteres;
+    
 
 
     public CCuenta()
@@ -24,7 +23,7 @@ public class CCuenta {
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
-        cuenta=cue;
+        cuenta1=cue;
         saldo=sal;
     }
 
@@ -64,7 +63,7 @@ public class CCuenta {
 
     public String obtenerCuenta()
     {
-        return cuenta;
+        return cuenta1;
     }
 
 

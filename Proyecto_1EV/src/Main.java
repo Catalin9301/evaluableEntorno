@@ -6,6 +6,14 @@
 public class Main {
 
     public static void main(String[] args) {
+    	
+    	float cantidad=0;
+    	operativaCuenta(cantidad);
+    
+    }
+    
+    public static void operativaCuenta(float cantidad) {
+    	
         CCuenta miCuenta;
         double saldoActual;
 
